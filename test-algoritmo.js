@@ -6,7 +6,7 @@ const testAlgoritmo = async () => {
     
     try {
         // Simular solicitud a API
-        const response = await fetch('https://academia-torneos.onrender.com/api/torneo-activo');
+        const response = await fetch('https://torneos-malon.onrender.com/api/torneo-activo');
         const torneo = await response.json();
         
         console.log(`✓ Torneo activo: ${torneo.nombre} (ID: ${torneo.id})`);
@@ -20,7 +20,7 @@ const testAlgoritmo = async () => {
         console.log(`📋 Configuración de grupos:`, configuracionGrupos);
         
         // Enviar solicitud para armar grupos con el nuevo algoritmo
-        const armarResponse = await fetch('https://academia-torneos.onrender.com/api/armar-grupos', {
+        const armarResponse = await fetch('https://torneos-malon.onrender.com/api/api/armar-grupos', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

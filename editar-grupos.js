@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const API_BASE_URL = 'https://academia-torneos.onrender.com/api';
+    const API_BASE_URL = 'https://torneos-malon.onrender.com/api';
     const token = localStorage.getItem('token');
     
     // Headers comunes para llamadas autenticadas

@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     // URL base de nuestro backend en Render
-    const API_URL_BASE = 'https://academia-torneos.onrender.com/api';
+    const API_URL_BASE = 'https://torneos-malon.onrender.com/api';
 
     const filtroCategoria = document.getElementById('filtro-categoria');
     const tablaBody = document.querySelector('#tabla-inscriptos tbody');

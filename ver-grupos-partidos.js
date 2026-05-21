@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     // URL base de nuestro backend en Render
-    const API_BASE_URL = 'https://academia-torneos.onrender.com/api';
+    const API_BASE_URL = 'https://torneos-malon.onrender.com/api';
     
     // Variables globales
     let torneoActivo = null;
