@@ -20,7 +20,7 @@ const testAlgoritmo = async () => {
         console.log(`📋 Configuración de grupos:`, configuracionGrupos);
         
         // Enviar solicitud para armar grupos con el nuevo algoritmo
-        const armarResponse = await fetch('https://torneos-malon.onrender.com/api/api/armar-grupos', {
+        const armarResponse = await fetch('https://torneos-malon.onrender.com/api/armar-grupos', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

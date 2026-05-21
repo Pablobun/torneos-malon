@@ -39,7 +39,7 @@ torneos/
 ### Frontend (JS)
 - Variables en camelCase: `gruposGenerados`, `configuracionGrupos`
 - Funciones descriptivas: `mostrarGruposFormados()`, `validarConfiguracion()`
-- API URL base: `https://academia-torneos.onrender.com/api`
+- API URL base: `https://torneos-malon.onrender.com/api`
 - Siempre validar respuestas del servidor antes de procesar
 
 ### CSS
