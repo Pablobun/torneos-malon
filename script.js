@@ -68,6 +68,16 @@ document.addEventListener('DOMContentLoaded', function () {
             }
             horariosContainer.innerHTML = html;
 
+            const sabadoHtml = `
+                <div style="margin-top: 15px; border-top: 1px solid #ddd; padding-top: 15px;">
+                    <div class="horario-item">
+                        <input type="checkbox" id="horario-321" name="horarios" value="321">
+                        <label for="horario-321"><strong>Disponibilidad Sábado a la mañana:</strong></label>
+                    </div>
+                </div>
+            `;
+            horariosContainer.innerHTML += sabadoHtml;
+
         } catch (error) {
             console.error('Error al cargar contenido:', error);
             mostrarErrorGeneral('No se pudo conectar con el servidor para cargar los datos. Inténtalo más tarde.');
